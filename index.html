@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COURSES</title>
+    <script src="https://kit.fontawesome.com/9557ceb193.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="IMG-20221021-WA0000.jpg">
+
+</head>
+<body>
+    
+<!-- ----------headdeerr------------ -->
+
+<section class="header">
+    <nav>
+        <a href=""> 
+            <img src="TS.png" alt="logo" style="background-color: rgba(255, 255, 255, 0.896); padding-right:5px;">
+        </a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">COURSE</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1>
+            COURSE 
+        </h1>
+    </div>
+</section>
+
+
+<!-- --------Course------ -->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab tempora fuga quo? Sint iusto recusandae alias</p>
+
+    <div class="row">
+        <div class="course-cl">
+            <h3>Front-End Web Development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolorem molestiae doloremque ipsam maiores, veritatis aspernatur, nemo est non error sed dignissimos odit voluptas repudiandae hic rerum maxime laudantium reprehenderit?</p>
+        </div>
+        <div class="course-cl">
+            <h3>Back-End Web Development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolorem molestiae doloremque ipsam maiores, veritatis aspernatur, nemo est non error sed dignissimos odit voluptas repudiandae hic rerum maxime laudantium reprehenderit?</p>
+        </div>
+            <div class="course-cl">
+            <h3>Technical Writing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolorem molestiae doloremque ipsam maiores, veritatis aspernatur, nemo est non error sed dignissimos odit voluptas repudiandae hic rerum maxime laudantium reprehenderit?</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- --------footer------ -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore provident quidem debitis unde cum quibusdam repudiandae architecto <br> Veritatis atque molestiae ullam ipsum vitae, nobis eos cupiditate perspiciatis, accusantium voluptatum officia.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    
+    </section>
+
+    <div class="tofe">
+        Made by Mr. Niceguy &copy; 2022
+       </div>
+    
+
+
+
+<!-- JS Toggle MENU  -->
+<script>
+var navLinks = document.getElementById("navLinks");
+function showMenu() {
+    navLinks.style.right ="0";
+}
+function hideMenu() {
+    navLinks.style.right ="-202px";
+}
+</script>
+
+</body>
+</html>
